@@ -1,0 +1,138 @@
+@font-face {
+    font-family:InterRegular;
+    src: url(font/Inter/Inter-Regular.otf);
+}
+@font-face {
+    font-family: MontserratLight;
+    src: url(font/Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: MontserratAltLight;
+    src: url(font/MontserratAlt/MontserratAlternates-Light.ttf);
+}
+body{
+    margin: 0;
+    font-family: MontserratAltLight;
+}
+/* ШАПКА */
+header{
+    width: 100%;
+    height:auto;
+    font-family: InterRegular;
+    border-bottom: 1px solid gray;
+}
+/* ССЫЛКИ ШАПКИ */
+.HeadLink{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.HeadLink a{
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 20px;
+    margin: 10px;
+    transition: .4s;
+}
+.HeadLink a:hover{
+    color: white;
+    background: black;
+}
+#MainWeb{
+    border-bottom: 3px solid gray;
+}
+/* НАЗВАНИЕ САЙТА И ЛОГО В ШАПКЕ */
+.HeadName{
+    margin: 0 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: MontserratAltLight;
+}
+.logo{
+    width: 110px;
+    height: 100px;
+    background-image: url(img/LogoSfera.png);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.SchoolNumber{
+    width: 100%;
+    font-size: 40px;
+    padding: 15px;
+}
+.SchoolNumber span{
+    font-family: MontserratLight;
+    padding-left: 20px;
+    font-size: 60px;
+}
+/* ГЛАВНАЯ ЧАСТЬ */
+main {
+    width: 1200px;
+    margin: auto;
+}
+.NewsPhoto{
+    margin: 20px;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.NewsPhoto div{
+    width: 550px;
+    height: 300px;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(IMG/img1.png);
+    
+    grid-column: 1;grid-row: 1;
+}
+#img2{
+    background-image: url(IMG/img2.png);
+    grid-column: 2;grid-row: 1;
+}
+#img3{
+    background-image: url(IMG/img3.png);
+    grid-column: 1;grid-row: 2;
+}
+#img4{
+    background-image: url(IMG/img4.png);
+    grid-column: 2;grid-row: 2;
+}
+#tb1{
+    grid-column: 1;grid-row: 3;
+}
+.tb{
+    font-family: MontserratAltLight;
+    font-size: 27px;
+}
+.tb button{
+    font-family: MontserratLight;
+    border-radius:20px;
+    padding: 10px;
+    font-size: 27px;
+    color: rgb(62, 140, 223);
+    background: white;
+    border: 5px solid rgb(62, 140, 223);
+    margin-left:100px;
+}
+#img5{
+    background-image: url(IMG/gosulugi.png);
+}
+.FirstKlass{
+    width: 100%;
+    height: 500px;
+    background-image: url(IMG/pervklass.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
