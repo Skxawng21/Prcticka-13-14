@@ -122,6 +122,11 @@ main {
     background: white;
     border: 5px solid rgb(62, 140, 223);
     margin-left:100px;
+    transition: .5s;
+}
+.tb button:hover{
+    background-color:rgb(62, 140, 223);
+    color: white;
 }
 #img5{
     background-image: url(IMG/gosulugi.png);
