@@ -96,3 +96,75 @@ main h2{
 .Links li{
     padding: 20px;
 }
+main {
+    width: 1200px;
+    margin: auto;
+}
+.NewsPhoto{
+    margin: 20px;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.NewsPhoto div{
+    width: 550px;
+    height: 300px;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(IMG/img1.png);
+    
+    grid-column: 1;grid-row: 1;
+}
+#img2{
+    background-image: url(IMG/img2.png);
+    grid-column: 2;grid-row: 1;
+}
+#img3{
+    background-image: url(IMG/img3.png);
+    grid-column: 1;grid-row: 2;
+}
+#img4{
+    background-image: url(IMG/img4.png);
+    grid-column: 2;grid-row: 2;
+}
+#tb1{
+    grid-column: 1;grid-row: 3;
+}
+.tb{
+    font-family: MontserratAltLight;
+    font-size: 27px;
+}
+.tb button{
+    font-family: MontserratLight;
+    border-radius:20px;
+    padding: 10px;
+    font-size: 27px;
+    color: rgb(62, 140, 223);
+    background: white;
+    border: 5px solid rgb(62, 140, 223);
+    margin-left:100px;
+    transition: .5s;
+}
+.tb button:hover{
+    background-color:rgb(62, 140, 223);
+    color: white;
+}
+#img5{
+    background-image: url(IMG/gosulugi.png);
+}
+.FirstKlass{
+    width: 100%;
+    height: 500px;
+    background-image: url(IMG/pervklass.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
