@@ -1,0 +1,110 @@
+@font-face {
+    font-family:InterRegular;
+    src: url(font/Inter/Inter-Regular.otf);
+}
+@font-face {
+    font-family: MontserratLight;
+    src: url(font/Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: MontserratAltLight;
+    src: url(font/MontserratAlt/MontserratAlternates-Light.ttf);
+}
+body{
+    margin: 0;
+    font-family: MontserratAltLight;
+}
+/* ШАПКА */
+header{
+    width: 100%;
+    height:auto;
+    font-family: InterRegular;
+    border-bottom: 1px solid gray;
+}
+/* ССЫЛКИ ШАПКИ */
+.HeadLink{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.HeadLink a{
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 20px;
+    margin: 10px;
+    transition: .4s;
+}
+.HeadLink a:hover{
+    color: white;
+    background: black;
+}
+#MainWeb{
+    border-bottom: 3px solid gray;
+}
+/* НАЗВАНИЕ САЙТА И ЛОГО В ШАПКЕ */
+.HeadName{
+    margin: 0 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: MontserratAltLight;
+}
+.logo{
+    width: 110px;
+    height: 100px;
+    background-image: url(img/LogoSfera.png);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.SchoolNumber{
+    width: 100%;
+    font-size: 40px;
+    padding: 15px;
+}
+.SchoolNumber span{
+    font-family: MontserratLight;
+    padding-left: 20px;
+    font-size: 60px;
+}
+/* Главная часть */
+.predmeti{
+   width: 1300px; 
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+}
+.gym{
+    width: 550px;
+    height: 150px;
+    background: red;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 1.0);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(232, 122, 60, 1.0));
+}
+.mat{
+    width: 550px;
+    height: 150px;
+    background: rgb(17, 0, 255);
+     margin: 15px;
+     padding: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 1.0);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(124, 137, 206, 1.0));
+}
+.himbio{
+    width: 550px;
+    height: 150px;
+    background: rgb(0, 255, 34);
+     margin: 15px;
+     padding: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 1.0);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(86, 177, 113, 1.0));
+}
