@@ -77,7 +77,6 @@ main h2{
     width:1100px;
     font-size: 25px;
     padding: 20px 20px;
-    border-bottom: 1px solid black;
 }
 .key-val-table td{
     background-color: rgb(235, 238, 238);
@@ -167,4 +166,43 @@ main {
     background-position: center;
     margin-bottom: 100px;
     cursor: pointer;
+}
+.predmeti{
+   width: 1300px; 
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+}
+.gym{
+    width: 550px;
+    height: 150px;
+    background: red;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 1.0);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(232, 122, 60, 1.0));
+}
+.mat{
+    width: 550px;
+    height: 150px;
+    background: rgb(17, 0, 255);
+     margin: 15px;
+     padding: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 1.0);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(124, 137, 206, 1.0));
+}
+.himbio{
+    width: 550px;
+    height: 150px;
+    background: rgb(0, 255, 34);
+     margin: 15px;
+     padding: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 1.0);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(86, 177, 113, 1.0));
 }
